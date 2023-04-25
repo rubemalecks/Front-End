@@ -1,0 +1,25 @@
+a:link {
+    color: #2bdfbb;
+    text-decoration: none;
+}
+a:visited {
+    color: #156f5d;
+}
+a:active {
+    color: #df2b4f;
+}
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
+}
+
+
+a.um:link {color:#ff0000;}
+a.um:visited {color:#0000ff;}
+a.um:hover {color:#ffcc00;}
+
+
+a.dois:link {color:#ff0000;}
+a.dois:visited {color:#0000ff;}
+a.dois:hover {font-size:150%;}

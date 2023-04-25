@@ -1,0 +1,44 @@
+.topo{
+    text-align: right;
+    padding: auto;
+    background-color: #003366;
+    padding: 5px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+.topo a{
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    margin: 4, 0, 2, 0;
+}
+.topo h2{
+    font-size: 20px;
+    color: white;
+    margin: 2, 0, 4, 0;
+}
+
+.auxiliar{
+    float: left;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+.principal{
+    font-family: Arial, sans-serif;
+    display: block;
+}
+.rodape{
+    background-color: #003366;
+    padding: 5px;
+    height: 25px;
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+
+h1, h2{
+    color: #003366;
+}

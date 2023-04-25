@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table tbody td {
+            background-color: blueviolet;
+            padding: 6px;
+        }
+
+        table thead {
+            border: 1px solid #CCC;
+            background-color: greenyellow;
+            padding: 5px;
+        }
+
+        table tfoot {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>TIME</th>
+                <th>Pontos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Santos</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Vasco</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td colspan="">time</td>
+                <td>pontos</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2" >Total: 147</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

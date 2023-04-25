@@ -1,0 +1,9 @@
+Facebook: 
+botão de compartilhar
+https://developers.facebook.com/docs/plugins/share-button
+
+like:
+https://developers.facebook.com/docs/plugins/like-button
+
+página:
+https://developers.facebook.com/docs/plugins/page-plugin

@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    font-family: Verdana;
+    font-size: 12px;
+    width: 60%;
+    padding: 30px;
+}
+
+tr:nth-child(even){
+    background: khaki;
+}
+
+th{
+    text-align: center;
+    background-color: #cc6600;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+caption{
+    caption-side: bottom;
+    text-decoration: underline;
+
+}

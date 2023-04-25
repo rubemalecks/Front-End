@@ -1,0 +1,19 @@
+
+
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    width: 60%;
+}
+th{
+    text-align: center;
+}
+td{
+    background-color: darkseagreen;
+    color: blue;
+    text-align: center;
+}
+caption{
+    caption-side: bottom;
+    text-decoration: underline;
+}

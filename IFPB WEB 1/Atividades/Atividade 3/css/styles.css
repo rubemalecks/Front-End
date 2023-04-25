@@ -1,0 +1,51 @@
+
+/*Instrução 3 e 4*/
+h1{
+    font-size: 30px;
+    color: darkblue;
+}
+
+/*Instrução 3 */
+.text-center{
+    text-align: center;
+}
+
+/*Instrução 3 */
+h2{
+    font-size: 24px;
+    background-color: lightskyblue;
+    color: darkblue;
+}
+/*Instrução 2 */
+body{
+    color: darkslategrey;
+    font-family: Arial, Sans-Serif;
+    font-size: 17px;
+}
+/*Instrução 3 e 4*/
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*Instrução 4 */
+a:visited{
+    color: darkblue;
+}
+/*Instrução 5 */
+a:focus{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.link:hover:after{           
+    content:" § ";
+    color: darkblue;
+}
+.text-center:hover:after{           
+    content:" § ";
+    color: darkblue;
+}
