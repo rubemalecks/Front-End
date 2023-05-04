@@ -1,4 +1,4 @@
-# Media Query
+# Media Query - (Simples)
 
 ```CSS
 @media (max-width: 600px) {
@@ -22,7 +22,7 @@ body {
         background-color: black;
         }
     }
-    
+
 @media (max-width: 600px) {
     body {
         background-color: blue;

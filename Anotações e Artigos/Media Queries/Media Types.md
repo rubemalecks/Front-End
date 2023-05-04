@@ -21,6 +21,10 @@ Também podemos especificar a tela. Ex: Se a tela for em formato retrato... ou p
 ```HTML
 <link rel="stylesheet" href="tela.css" media="screen and (orientation: portrait) <!-- ou landscape-->" >
 ```
+## Outro exemplo de uso:
+```HTML
+<link rel="stylesheet" href="tela.css" media="screen and (max-width: 768px)" >
+```
 
 ## PRINT
 
