@@ -43,6 +43,7 @@ resultado:
 ![Alt text](img/ex1213.jpg)
 
 Podemos usar os botões de marcação para ver como ficaria sem/com alguns elementos:
+
 ![Alt text](img/interessante1.jpg)
 
 Outra propriedade a ser editada é o _padding_ que causa um espaçamento interno entre a borda do elemento e o texto.
