@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html, body, header {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.frase_inicio{
+    padding-top: 15px;
+    padding-left: 160px;
+    padding-bottom: 17px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500px;
+    color: #ffcc00;
+    letter-spacing: 1.5px;
+
+    background-color: rgb(28,141, 72);
+    display: flex;
+}
+
+.logo1 {
+    padding-left: 170px;
+    background-color: #23A455;
+
+}
