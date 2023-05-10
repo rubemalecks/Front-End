@@ -7,10 +7,11 @@ body{
 header {
     display: flex;
     justify-content: center;
+    height: 120px;
 }
 .container{
     width: 990px;
-    height: 120px;
+    
     display: flex;
     justify-content: space-between;
 
@@ -47,4 +48,76 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #39aae1;
     color: white;
+}
+
+#banner {
+    background-image: url('img/img1.jpg');
+    /*background-size: contain;
+    background-repeat: no-repeat; */ 
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.coluna{
+    flex-direction: column;
+}
+.bannercima {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.bannercima h1 {
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 1px 0px #555;
+    max-width: 350px;
+
+}
+
+
+.bannercima h2 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 1px 0px #555;
+    max-width: 350px;
+}
+
+.bannerbaixo {
+    height: 210px;
+    display: flex;
+}
+
+.banner1 {
+    background-color: #39aae1;
+    flex: 1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.banner2 {
+    background-color: #0079c7;
+    flex: 1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+    flex: 1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
 }
