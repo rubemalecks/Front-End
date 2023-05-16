@@ -204,7 +204,6 @@ article .not_coment{
     color: #000;
     font-size: 20px;
 }
-
 .noticias_resumo {
     color: #5c5c5c;
     font-size: 14px;
@@ -219,7 +218,7 @@ article {
     min-width: 300px;
     padding: 10px;
 }
-footer {
+.footer1 {
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
@@ -227,10 +226,13 @@ footer {
 }
 
 .banner_footer {
+    background-color: #1e1e1e;
     display: flex;
+    justify-content: center;
     height: 210px;
+     width: 42%;
     color: white;
-    width: 42%;
+   
 }
 
 .banner_footer_1 {
@@ -250,4 +252,21 @@ footer {
     flex: 1;
     font-size: 20px;
     padding: 20px;
+}
+
+.footer2 {
+    background-color: #1e1e1e;
+    display: flex;  
+    justify-content: center;
+}
+
+.wd_item {
+    display: flex;
+    justify-content: center;
+}
+
+.wd_tit_f {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 }
