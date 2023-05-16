@@ -225,3 +225,29 @@ footer {
     justify-content: center;
 
 }
+
+.banner_footer {
+    display: flex;
+    height: 210px;
+    color: white;
+    width: 42%;
+}
+
+.banner_footer_1 {
+    background-color: #39aae1;
+}
+
+.banner_footer_2 {
+    background-color: #0079c7;
+}
+
+.banner_footer_3 {
+    background-color: #2b4c99;
+}
+
+
+.banner_footer div {
+    flex: 1;
+    font-size: 20px;
+    padding: 20px;
+}
