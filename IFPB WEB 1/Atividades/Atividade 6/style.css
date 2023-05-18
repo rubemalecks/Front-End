@@ -218,6 +218,10 @@ article {
     min-width: 300px;
     padding: 10px;
 }
+
+footer {
+    background-color: #1e1e1e;
+ }
 .footer1 {
     background-color: #1e1e1e;
     display: flex;
@@ -230,7 +234,7 @@ article {
     display: flex;
     justify-content: center;
     height: 210px;
-     width: 42%;
+    width: 59%;
     color: white;
    
 }
@@ -241,6 +245,7 @@ article {
 
 .banner_footer_2 {
     background-color: #0079c7;
+
 }
 
 .banner_footer_3 {
@@ -250,23 +255,43 @@ article {
 
 .banner_footer div {
     flex: 1;
-    font-size: 20px;
     padding: 20px;
 }
 
+.banner_footer div div {
+    text-align: center;
+    
+}
+
+.wd_titulo_final {
+    font-size: 20px;
+}
+.wd_desc_final {
+    font-size: 15px;
+}
+
 .footer2 {
-    background-color: #1e1e1e;
-    display: flex;  
-    justify-content: center;
-}
-
-.wd_item {
+    
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
 
-.wd_tit_f {
+.wd_item_final {
+    padding-top: 20px;
+    width: 20%;
+}
+
+.recent_inf {
+    color: white;
+}
+
+.wd_titulo_inf_finais {
     font-size: 20px;
     color: white;
     font-weight: bold;
+}
+
+.copyright {
+    padding-left: 20%;
+    color: #555;
 }
