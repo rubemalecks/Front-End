@@ -55,6 +55,7 @@ body {
     font-weight: 400;
     font-size: 24px;
 }
+
 .apresentacao__links__link {
     display: flex;
     justify-content: center;
@@ -71,3 +72,6 @@ body {
     border-radius: 8px;
 }
 
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
