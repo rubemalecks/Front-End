@@ -8,10 +8,7 @@ function calculaResultado() {
 }
 
 function limparCampos() {
-    
+    document.querySelector('#iprod').value = ''
     document.querySelector('#ipreco').value = ''
     document.querySelector('#iquant').value = ''
-
-
-
 }
