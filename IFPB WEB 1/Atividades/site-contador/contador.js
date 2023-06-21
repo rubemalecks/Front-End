@@ -34,7 +34,7 @@ function contar() {
 
 
 
-const dataEvento = new Date('2023-06-20 21:19:59')
+const dataEvento = new Date('2023-07-20 00:00:01')
 dataHoje = Date.now()
 difData = Math.floor((dataEvento - dataHoje) / 1000)
 tempo = difData
