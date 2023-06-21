@@ -1,6 +1,10 @@
+let indiceCor = 0;
+let intervalo = null;
+
 function semaforo(event) {
     const botao = event.target.id
     const img = document.querySelector('img')
+    clearInterval(intervalo)
     acende(botao)
 }
 
@@ -9,6 +13,7 @@ function acende(botao) {
     switch (botao) {
         case 'vermelho':
             img.src = 'img/vermelho.png'
+            
             break   
         case 'amarelo':
             img.src = 'img/amarelo.png'
@@ -17,12 +22,22 @@ function acende(botao) {
             img.src = 'img/verde.png'
             break
         case 'automatico':
-            setInterval(mudaCor, 3000)
+            intervalo = setInterval(mudaCor, 1000)
             break
     }
 }
 
 function mudaCor() {
-    cores = ["vermelho", "verde", "amarelo"]
+
+    cores = ["vermelho", "amarelo", "verde",]
+    cor = cores [indiceCor]
     acende(cor)
+    indiceCor++
+
+    if (indiceCor > 2) {
+        indiceCor = 0;
+
+    }
+ 
 }
+
