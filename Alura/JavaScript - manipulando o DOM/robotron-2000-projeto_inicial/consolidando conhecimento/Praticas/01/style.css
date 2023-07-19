@@ -1,0 +1,7 @@
+.retangulo {
+    width: 30px;
+    height: 30px;
+    border: 5px solid rgba(26, 169, 252, 0.527);
+    background-color: black;
+}
+

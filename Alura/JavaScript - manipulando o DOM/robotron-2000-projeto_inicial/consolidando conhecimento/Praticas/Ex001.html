@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        #botao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            height: 50px;
+            border: 1px solid black;
+            color: purple;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="botao">
+        Clique aqui!!
+    </div>
+
+    <h1 class="mensagem"></h1>
+    <script>
+        const bot = document.getElementById('botao');
+        const messenger = document.querySelector('.mensagem');
+
+        bot.addEventListener("click", () => {
+            messenger.innerText = "Você clicou no botão!";
+        })
+    </script>
+</body>
+
+</html>
