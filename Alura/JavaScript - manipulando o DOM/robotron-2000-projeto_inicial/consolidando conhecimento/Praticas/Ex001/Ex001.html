@@ -11,7 +11,7 @@
             justify-content: center;
         }
 
-        #botao {
+        #btn-click {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,17 +25,17 @@
 </head>
 
 <body>
-    <div id="botao">
+    <div id="btn-click">
         Clique aqui!!
     </div>
 
     <h1 class="mensagem"></h1>
     <script>
-        const bot = document.getElementById('botao');
+        const botao = document.getElementById('btn-click');
         const messenger = document.querySelector('.mensagem');
 
-        bot.addEventListener("click", () => {
-            messenger.innerText = "Você clicou no botão!";
+        botao.addEventListener("click", () => {
+            messenger.innerText = "Você clicou no botao!";
         })
     </script>
 </body>
