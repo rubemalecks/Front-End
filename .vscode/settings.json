@@ -2,5 +2,6 @@
     "cSpell.words": [
         "Flexbox"
     ],
-    "prisma.fileWatcher": true
+    "prisma.fileWatcher": true,
+    "livePreview.defaultPreviewPath": "/Exercicios e Praticas JS/Ex005/Ex005.html"
 }
