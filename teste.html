@@ -6,19 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        p {
-            display: inline;
-            border: 1px solid red;
-        }
-    </style>
 </head>
 
 <body>
-
-    <p>teste</p>
-    <p>teste</p>
-
+    <li data-email="rubem@bol.com">Rubinho</li>
+    <li data-email="alecks@gmail.com">Alecks</li>
 </body>
-
+    <script>
+        document.querySelectorAll("li").forEach(elemLi => {
+            console.log(elemLi.dataset.email)
+        });
+    </script>
 </html>
