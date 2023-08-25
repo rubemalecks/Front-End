@@ -6,11 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geral</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #ffffff;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #105aa9;
+            text-decoration: none;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Acesse:</h1>
-    <a href="IFPB WEB 2/Atividades/Jogo do Palpite/index.html">Jogo do Palpite</a>
+    <h1>Confira nossas atividades:</h1>
+    <a id="atividade1" href="IFPB WEB 2/Atividades/Jogo do Palpite/index.html">Jogo do Palpite</a>
+
+    <img id="imgAtv1" src="https://media.tenor.com/8PDB3JNNq98AAAAC/silicon-valley.gif" alt="img">
+    <script>
+        const atv1 = document.getElementById("atividade1");
+        const imgAtv1 = document.getElementById("imgAtv1");
+        atv1.addEventListener("mouseover", function () {
+            console.log(imgAtv1)
+            imgAtv1.setAttribute('src', "https://i.gifer.com/5IMU.gif");
+
+        });
+        atv1.addEventListener("mouseout", function () {
+            console.log(imgAtv1)
+            imgAtv1.setAttribute('src', "https://media.tenor.com/8PDB3JNNq98AAAAC/silicon-valley.gif");
+
+        });
+    </script>
 </body>
 
 </html>
