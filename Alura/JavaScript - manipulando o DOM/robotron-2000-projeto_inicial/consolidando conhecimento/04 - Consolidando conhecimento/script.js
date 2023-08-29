@@ -1,5 +1,14 @@
+const listaTintas = document.querySelector('.lista');
+
+const botao = document.querySelector('.botao');
+const exterior = document.querySelector('.exterior');
+
 function mostraTintas() {
-    const listaTintas = document.getElementsByClassName("lista")
-    let tintas = listaTintas.getAttribute("mostragem")
-    console.log(tintas)
+    listaTintas.style.display = ""
 }
+
+
+function ocultarTintas() {
+    listaTintas.style.display = "none"
+}
+
