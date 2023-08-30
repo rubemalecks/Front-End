@@ -39,18 +39,44 @@
 
 <body>
     <h1>Confira nossas atividades:</h1>
+
     <a id="atividade1" href="IFPB WEB 2/Atividades/Jogo do Palpite/index.html">Jogo do Palpite</a>
 
+    <a id="praticaEventos" href="Exercicios e Praticas JS/00 - Praticando eventos com mouse/">Praticando eventos com o
+        mouse</a>
+
+    <a id="alternaImg" href="Exercicios e Praticas JS/Ex004 - Alternando img com clique/Ex004.html">Alternar Imagem com
+        JS</a>
+
+
     <img id="imgAtv1" src="https://media.tenor.com/8PDB3JNNq98AAAAC/silicon-valley.gif" alt="img">
+
     <script>
         const atv1 = document.getElementById("atividade1");
+        const praticaEventos = document.getElementById("praticaEventos");
         const imgAtv1 = document.getElementById("imgAtv1");
-        atv1.addEventListener("mouseover", function () {
-     
-            imgAtv1.setAttribute('src', "https://i.gifer.com/5IMU.gif");
+        const alternaImg = document.getElementById("alternaImg");
 
+
+        imgAtv1.addEventListener("mouseover", function () {
+            imgAtv1.setAttribute('src', "https://i.gifer.com/5IMU.gif");
         });
 
+        imgAtv1.addEventListener("mouseout", function () {
+            imgAtv1.setAttribute('src', "https://media.tenor.com/8PDB3JNNq98AAAAC/silicon-valley.gif");
+        });
+
+        atv1.addEventListener("mouseover", function () {
+            imgAtv1.setAttribute('src', "https://media3.giphy.com/media/XsEzRCDM9FAkNTtRXw/giphy.gif?cid=ecf05e47q1rwvrb6igqn06nqd641np80f76u2rq757hi2gd3&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+        });
+
+        praticaEventos.addEventListener("mouseover", function () {
+            imgAtv1.setAttribute('src', "https://media0.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif?cid=ecf05e47lt2h6z8qzffvr2kmvrolhycpy2vtxd7r0crjfdhu&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+        });
+
+        alternaImg.addEventListener("mouseover", function () {
+            imgAtv1.setAttribute('src', "https://media1.giphy.com/media/Dbo31UlQgVIdO/giphy.gif?cid=ecf05e47glejdeqlo0638cdevcxmcakx5tivomf5tggtzmej&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+        });
     </script>
 </body>
 
